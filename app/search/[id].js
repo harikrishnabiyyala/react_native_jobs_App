@@ -8,8 +8,9 @@ import { COLORS, icons, SIZES } from '../../constants'
 import styles from '../../styles/search'
 
 // place your API Key here 
+import { RAPID_API_KEY } from '@env';
 
-const rapidApiKey = '';
+const rapidApiKey = RAPID_API_KEY;
 
 const JobSearch = () => {
     const params = useSearchParams();
